@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved - InfoBeans Foundation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/src/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand text-danger fw-bold fs-4" href="/">InfoBeans Foundation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programs.html">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="success-stories.html">Success Stories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="get-involved.html">Register   </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faqs.html">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Get Involved</h1>
+                    <p class="lead mb-4">Join us in our mission to empower underprivileged youth through education.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=800&q=80" alt="Volunteer teaching" class="img-fluid rounded-3 shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ways to Help -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-1 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center mx-auto mb-4" style="width: 80px; height: 80px;">
+                                <i class="bi bi-heart-fill fs-3"></i>
+                            </div>
+                            <h3>Register</h3>
+                            <p class="mb-4">Support our mission by making a donation. Every contribution helps us provide quality education to more students.</p>
+                            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#donateModal">Register now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-1 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center mx-auto mb-4" style="width: 80px; height: 80px;">
+                                <i class="bi bi-people-fill fs-3"></i>
+                            </div>
+                            <h3>Volunteer</h3>
+                            <p class="mb-4">Share your knowledge and skills. Become a mentor or trainer for our students.</p>
+                            
+                            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#volunteerModal">Join Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-1 shadow-sm">
+                        <div class="card-body text-center">
+                            <div class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center mx-auto mb-4" style="width: 80px; height: 80px;">
+                                <i class="bi bi-building fs-3"></i>
+                            </div>
+                            <h3>Partner</h3>
+                            <p class="mb-4">Partner with us for placements, internships, or CSR initiatives.</p>
+                            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#partnerModal">Partner With Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Form -->
+    <div class="modal fade" id="donateModal" tabindex="-1">
+        <div class="form-container">
+            <h2>Registration Form</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label><br>
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="Female" required>
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="Other" required>
+                    <label for="other">Other</label>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="state" required>
+                </div>
+                <div class="form-group">
+                    <label for="zip">ZIP Code</label>
+                    <input type="text" id="zip" name="zip" required>
+                </div>
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <select id="country" name="country" required>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <!-- Add other countries as needed -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="education">Highest Level of Education</label>
+                    <select id="education" name="education" required>
+                        <option value="High School">High School</option>
+                        <option value="Undergraduate">Undergraduate</option>
+                        <option value="Postgraduate">Postgraduate</option>
+                        <!-- Add other education levels as needed -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="occupation">Occupation</label>
+                    <input type="text" id="occupation" name="occupation" required>
+                </div>
+                <div class="form-group">
+                    <label for="experience">Years of Experience</label>
+                    <input type="text" id="experience" name="experience" required>
+                </div>
+                <div class="form-group">
+                    <label for="skills">Skills</label>
+                    <input type="text" id="skills" name="skills" required>
+                </div>
+                <div class="form-group">
+                    <label for="linkedin">LinkedIn Profile</label>
+                    <input type="text" id="linkedin" name="linkedin">
+                </div>
+                <div class="form-group">
+                    <label for="resume">Upload Resume</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Volunteer Form -->
+    <div class="modal fade" id="volunteerModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Volunteer Registration</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Phone</label>
+                            <input type="tel" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Area of Expertise</label>
+                            <select class="form-select">
+                                <option>Web Development</option>
+                                <option>Programming</option>
+                                <option>Soft Skills Training</option>
+                                <option>Career Counseling</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Available Hours per Week</label>
+                            <input type="number" class="form-control" required>
+                        </div>
+                        <button type="submit" class="btn btn-danger w-100">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Partner Form -->
+    <div class="modal fade" id="partnerModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Partnership Inquiry</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Company Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Contact Person</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Phone</label>
+                            <input type="tel" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Partnership Type</label>
+                            <select class="form-select">
+                                <option>Placement Partner</option>
+                                <option>Training Partner</option>
+                                <option>CSR Initiative</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger w-100">Submit Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Impact Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Your Impact</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <h3 class="text-danger mb-3">₹10,000</h3>
+                            <p>Supports one student's monthly training expenses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <h3 class="text-danger mb-3">₹50,000</h3>
+                            <p>Provides complete training for one student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <h3 class="text-danger mb-3">₹1,00,000</h3>
+                            <p>Supports infrastructure and equipment needs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="text-danger mb-4">InfoBeans Foundation</h5>
+                    <p>Empowering underprivileged students through quality IT education and career support.</p>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="mb-4">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="/" class="text-decoration-none text-dark">Home</a></li>
+                        <li><a href="/about.html" class="text-decoration-none text-dark">About</a></li>
+                        <li><a href="/programs.html" class="text-decoration-none text-dark">Programs</a></li>
+                        <li><a href="/contact.html" class="text-decoration-none text-dark">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="mb-4">Contact Info</h6>
+                    <ul class="list-unstyled">
+                        <li>123 Education Street</li>
+                        <li>Indore, MP 452001</li>
+                        <li>info@infobeansfoundation.com</li>
+                        <li>+91 1234567890</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="mb-4">Follow Us</h6>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-dark"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-dark"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-dark"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-dark"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <small>&copy; 2024 InfoBeans Foundation. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
